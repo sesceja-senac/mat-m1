@@ -1,0 +1,57 @@
+- em mat-e3-m4
+- pegar saibamais com botão +
+- exercicio multipla
+
+<figure>
+    <img class="img-fluid mx-auto d-block img-w" src="assets/img/figura_4.png" alt="" />
+    <figcaption>
+
+    </figcaption>
+</figure>
+<div class="caixa icone saiba-mais">
+    <p></p>
+</div>
+
+<span class="tooltip-link" data-bs-toggle="tooltip" data-bs-original-title=""> </span>
+
+Menu 
+
+História dos números e conjuntos numéricos 
+Surgimento dos números 
+Conjunto dos números naturais 
+Conjunto dos números inteiros 
+Conjunto dos números racionais 
+Potenciação e radiciação  
+Conjunto dos números irracionais 
+Conjunto dos números reais 
+Referências 
+
+
+              <div class="esquemaDaBru">
+                <p class="enunciado" tabindex="0">
+                </p>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  a) 2
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  b) 0
+                </button>
+                <button class="alt-c btn-sesc" title="alternativa: ">
+                  c) 3
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  d) 4
+                </button>
+                <div class="feedbacks">
+                  <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                            class="fas fa-times"></i>Resposta incorreta! Você precisa encontrar um número que, ao dividir por seis, não tenha resto.     </p>
+                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                            class="fas fa-times"></i>Resposta incorreta! Você precisa encontrar um número que, ao dividir por seis, não tenha resto.   </p>
+                    
+                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                              class="fas fa-check"></i> Resposta correta! Parabéns, você calculou corretamente!   </p>
+                    
+                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                    class="fas fa-times"></i>Resposta incorreta! Você precisa encontrar um número que, ao dividir por seis, não tenha resto.</p>
+                </div>
+              </div>
