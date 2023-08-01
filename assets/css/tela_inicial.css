@@ -84,7 +84,7 @@
     background-position: center;
 }
 #link-1 {
-    background-image: url('../tela_inicial/bt_1.png');
+    background-image: url('../../tela_inicial/bt_1.png');
 }
 #link-2 {
     background-image: url('../tela_inicial/bt_2.png');
