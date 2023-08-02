@@ -295,7 +295,10 @@ iframe {
 }
 .figuraReta{background: #ffff;}
 
-
+.blocoY{
+  background: url('../../../../assets/img/vetor-bg2.png') center no-repeat;
+  background-attachment: fixed;
+}
 
 
 
@@ -383,8 +386,8 @@ iframe {
   .icone.importante::before {
     left:-55px;
   }
-  .icone.refletir::before {
-    left:-55px;
+  .icone.para-refletir::before {
+    left:-50px;
   }
   .paragImportante p {
     padding-left: 20px;
