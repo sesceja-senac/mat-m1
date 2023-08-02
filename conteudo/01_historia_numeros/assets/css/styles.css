@@ -181,6 +181,7 @@ iframe {
   box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
   left: -1px !important;
   top: -2px !important;
+
 }
 .dropdown-menu a{
   border-bottom: 1px solid #fff;
@@ -211,11 +212,12 @@ iframe {
   border: none;
 }
 .fixar {
-  position: fixed;
+  position:fixed;
   width: 100%;
   top: 0;
   margin-top: unset;
   z-index: 9;
+ 
 }
 .dropdown-menu ul{
   list-style: none;
@@ -260,6 +262,7 @@ iframe {
 .dropdown-menu{
   background: unset;
   background-color: #00838D !important;
+
 }
 
 /*fim do menu*/
@@ -278,7 +281,7 @@ iframe {
 }
 
 .bg1{
-  background-color:#000;
+  background-color:#ffff;
 }
 
 
