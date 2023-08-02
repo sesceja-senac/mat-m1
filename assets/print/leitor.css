@@ -126,6 +126,11 @@
   }
   .pagina figcaption	{
   display: block;	
+  text-align: center;
+  }
+  .legenda{
+    display: block;	
+    text-align: center;
   }
   .pagina figure	{
   display: block;

@@ -105,7 +105,10 @@ table.sesc tr{
   height: 400px;
 }
 #booklet h1{padding-top: unset;}
-
+.legenda{
+  display: block;	
+  text-align: center;
+}
 @media print {
 
   
@@ -148,7 +151,10 @@ table.sesc tr{
       a[data-toggle='collapse']:after {
         content: "";
       }
-    
+      .pagina figcaption	{
+        display: block;	
+        text-align: center;
+        }
 
 
       #marcadaguaLogo {
