@@ -318,7 +318,9 @@ iframe {
 }
 
 
-
+.referencias p{
+  word-wrap: break-word;
+}
 
 
 
