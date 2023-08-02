@@ -321,7 +321,6 @@ iframe {
   word-wrap: break-word;
 }
 
-
 @media (max-width: 1080px) {
   video {
     max-width: 100%;
