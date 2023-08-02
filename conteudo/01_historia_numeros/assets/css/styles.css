@@ -300,6 +300,22 @@ iframe {
   background-attachment: fixed;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.image-box {
+  flex: 1; 
+  float: right;
+}
+
+.text-box {
+  flex: 1; 
+}
+
+.atividade{
+  width: 40%;
+}
 
 
 

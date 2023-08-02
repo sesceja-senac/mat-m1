@@ -109,6 +109,25 @@ table.sesc tr{
   display: block;	
   text-align: center;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.image-box {
+  flex: 1; 
+  float: right;
+}
+.text-box {
+  flex: 1; 
+}
+.atividade{
+  width: 45%;
+}
+.gabarito{
+  padding-top: 80px;
+}
+.perguntas{padding-top: 4px;}
 @media print {
 
   
