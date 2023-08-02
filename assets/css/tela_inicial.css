@@ -10,6 +10,52 @@
     }
 } */
 
+
+
+.btVideo{
+    background: url('../../assets/img/Video_apresentacao_pq_layout.png') no-repeat;
+    width: 236px;
+    height: 226px;
+    position: absolute;
+    bottom: 5%;
+    left: 70%;
+    border: none;
+    background-size: 90%;
+    display: block;
+    margin: 10px auto;
+    transition: all 0.2s;
+}
+.btVideo:hover {
+    transform: scale(1.1);
+}
+.modal-dialog .modal-content{
+    background: url('../../assets/img/video_bg.png') no-repeat center;
+    width: 1133px;
+    height: 708px;
+    border: none;
+    padding: 100px 200px;
+    background-size: 85%;
+}
+.modal-dialog .modal-content p{
+    color: #fff;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.btnFechar{
+    color: #fff;
+    clear: both;
+}
+
+
+
+
+#bt_ini:hover{
+    transform: scale(1.1);
+}
+
+
 #tituloarea{
     position: absolute;
     top: 10px;
