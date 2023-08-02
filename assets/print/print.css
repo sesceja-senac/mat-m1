@@ -100,6 +100,12 @@ table.sesc {
 table.sesc td{
   border: 1px solid #00767f;}
 
+.imgZero{
+  width: 400px;
+  height: 400px;
+}
+#booklet h1{padding-top: unset;}
+
 @media print {
 
   

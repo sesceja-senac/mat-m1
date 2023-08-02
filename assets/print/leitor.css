@@ -416,7 +416,11 @@
   table.sesc td{
     border: 1px solid #00767f;}
 
-
+  .imgZero{
+    width: 400px;
+    height: 400px;
+  }
+  #booklet h1{padding-top: unset;}
 
 /* Estilos de acordo com o template + ou - */
 .img-fluid{
