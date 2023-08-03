@@ -1,14 +1,14 @@
 .item {
     padding: 20px;
     border-radius: 20px;
-    background-color: #ff9200;
+    background-color: #c7760d;
     color: white;
     display: flex;
     align-content: center;
     gap: 10px;
     align-items: center;
     align-content: center;
-    border: 2px solid #ff9200;
+    border: 2px solid #945502;
     font-weight: bold;
 }
 .selecionado {
@@ -31,7 +31,7 @@
     width: 100%;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .item.acertou {
     border:#008086;
@@ -89,7 +89,7 @@
     padding: 0px;
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 18px;
     color: #ff9200 !important;
 }
 .resp.acertou {
