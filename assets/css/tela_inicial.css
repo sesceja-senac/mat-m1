@@ -91,7 +91,7 @@
 #nuvensPensamento{
     position: absolute;
     left: 30%;
-    top: 20%;
+    top: 30%;
 }
 #videoplay{
     width: 200px;
@@ -224,6 +224,44 @@
 }
 
 
+#nuvemTitMobile{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+#garotaMobile{
+    position: absolute;
+    width: 70%;
+    margin-top: 80px;
+    z-index: 4;
+}
+#bg_inferiorMobile{
+    position: absolute;
+    bottom: 0;
+    width: 180%;
+    z-index: 3;
+}
+#nuvemPensamentoMobile{
+    position: absolute;
+    width: 30%;
+    margin-left: 120px;
+}
+
+#btIniciarMobile{
+position: absolute;
+width: 40%;
+margin-left: 60%;
+margin-top: 20%;
+}
+
+#logoMobile{
+    position: absolute;
+    right: 10px;
+    width: 20%;
+}
+
+
 @media (max-width: 900px) {
     .menu {
         width: 100%;
@@ -266,3 +304,40 @@
         display: none;
     }
 }
+
+@media screen and (max-width:480px){
+    .desktop1{display: none;}
+    .btVideo {width: 30% !important;
+    bottom: unset;
+    top:70% !important;
+    margin-left: unset !important;}
+}
+@media screen and (min-width:483px){
+    .mobile1{display: none;}
+}
+
+@media screen and (max-width:1030px){
+.modal-dialog .modal-content{
+    background-size: 30%;
+    background-position: center;
+    background: unset;
+    max-width: 100%;
+    padding: 50px;
+    background: #007981;
+}
+.btVideo {margin-left: 40px;}
+#garota{width: 35%;}
+}
+
+@media screen and (max-width:780px){
+#nuvensPensamento{width: 15%;
+margin-top: 31px;
+left: 35%;}
+#garota{width: 50% !important; }
+#tituloNuvem{margin-top: 30px;}
+#bt_ini{top:45%;
+margin-left: 40px;}
+.btVideo {width: 25%;
+margin-left: -55px;}
+}
+
