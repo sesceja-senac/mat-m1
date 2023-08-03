@@ -33,6 +33,7 @@
     <img src="../../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="" />
   </header>
 
+  <div class="bg-fundo"></div>
   <div class="dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     </button>
@@ -538,7 +539,7 @@
           </p>
 
 
-          <div data-aos="zoom-in" class="caixa-container caixa icone saiba-mais">
+          <div data-aos="zoom-in" class="caixa-container caixa icone saiba-mais aos-init aos-animate">
             <div class="caixa-exp">
               <p>
                 A fim de facilitar, existem alguns critérios para “cortar caminhos” e realizar uma divisão mais
@@ -558,8 +559,10 @@
                 </figcaption>
               </figure>
             </div>
-
+            <button class="btpluscaixa"></button>
           </div>
+
+          
           <p>
             Conforme você leu anteriormente sobre critérios de divisibilidade, percebemos que alguns números chamam a
             atenção, pois têm apenas dois divisores. Esses números são denominados “primos” e pertencem ao conjunto dos
@@ -2701,6 +2704,7 @@
   <script src="../../assets/js/geral.js"></script>
   <script src="../../assets/js/rellax.min.js"></script>
   <script src="assets/js/aos.js"></script>
+  <script src="/assets/js/geral.js"></script>
   <script src="/objeto_associarColunas/js/associar-colunas.js"></script>
   <script>
     AOS.init();
