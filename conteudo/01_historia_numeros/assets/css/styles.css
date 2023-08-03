@@ -216,9 +216,7 @@ iframe {
   transform: translateX(-50%) scale(1.03);
 }
 
-
-
-
+/*menu*/
 .dropdown-menu{
   background: #707070;
   border-radius: 0;
@@ -333,12 +331,8 @@ iframe {
 }
 
 
-
-
-
-
-
 /*fim do menu*/
+
 .caixa.icone {
   padding: 40px;
   padding-left: 60px;
