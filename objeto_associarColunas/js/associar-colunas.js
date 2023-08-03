@@ -1,6 +1,6 @@
 $(function (){
-    var erro = new Audio("../../assets/interativos/esquema_bru/snd/erro.mp3")
-    var acerto = new Audio("../../assets/interativos/esquema_bru/snd/acerto.mp3")
+    var erro = new Audio("../../../assets/interativos/esquema_bru/snd/erro.mp3")
+    var acerto = new Audio("../../../assets/interativos/esquema_bru/snd/acerto.mp3")
     $(".resp, .item").click(function (){
         $(this).toggleClass("selecionado");
 
