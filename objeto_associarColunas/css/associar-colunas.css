@@ -20,11 +20,12 @@
 .item:hover {
     background-color: #f8b155
 }
+
 .item::before {
     content: "";
     font-size: 30px;
     font-weight: bold;
-     position: relative;
+    position: relative;
   }
   .item p {
     text-align: center;
