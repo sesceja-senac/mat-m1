@@ -11,7 +11,6 @@
 } */
 
 
-
 .btVideo{
     background: url('../../assets/img/Video_apresentacao_pq_layout.png') no-repeat;
     width: 236px;
@@ -47,8 +46,6 @@
     color: #fff;
     clear: both;
 }
-
-
 
 
 #bt_ini:hover{
@@ -98,7 +95,6 @@
     position: absolute;
     bottom: 5%;
     left: 70%;
-
 }
 #logo{
     position: absolute;
