@@ -341,3 +341,23 @@ margin-left: 40px;}
 margin-left: -55px;}
 }
 
+@media screen and (max-width:416px){
+    #garotaMobile{width: 60% !important;
+    margin-left: 10px !important;
+    margin-top: 65px !important;
+    position:fixed !important;}
+    #bg_inferiorMobile{
+        bottom: 0;
+        position: fixed;
+    } 
+    #nuvemTitMobile{margin-top: 60px;}
+    .btVideo{margin-top: 28px;
+    position: fixed;}
+}
+
+@media screen and (max-width:376px){
+    #garotaMobile{margin-top: 155px !important;
+    width: 70% !important;}
+    #nuvemPensamentoMobile{margin-top: 28px !important;}
+    #btIniciarMobile{margin-top: 130px;}
+}
