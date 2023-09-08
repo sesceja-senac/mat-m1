@@ -761,6 +761,16 @@ p{
 
 }
 */
+#carousel3  {page-break-before: always;
+}
+#carousel3 .carousel-inner .carousel-item {
+  float: left !important;
+  width: 40% !important;
+  font-size: 12px !important;
+  line-height: 14px!important;
+
+
+}
 .visually-hidden.print{
  position: relative!important;
  width: auto!important;
