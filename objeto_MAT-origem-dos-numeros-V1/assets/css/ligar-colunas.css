@@ -1,0 +1,396 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes efeitinho {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Remover */
+body {
+    background-color: #f2f2f2;
+}
+/* Remover */
+
+
+/***************************************************************/
+/************************ conteúdo header **********************/
+/***************************************************************/
+
+.game-ligue-colunas {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    display: block;
+    /* border: 1px solid #b26e6b; */
+    border-radius: 10px;
+}
+
+.cabecalho {
+    border-radius: 10px;
+    animation: fadeInUp 1s ease-in-out;
+    margin: 1%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1-game {
+    color: #b26e6b;
+    font-weight: bold;
+}
+
+.p-descricao {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.logo-ligacao-descricao {
+    padding: 20px 10px 20px 125px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.logo-ligacao-descricao-img {
+    position: relative;
+}
+
+.logo-ligacao-descricao-img img {
+    width: 150px;
+    position: absolute;
+    top: -17px;
+    left: 76px;
+}
+
+/***************************************************************/
+/************************* conteúdo game ***********************/
+/***************************************************************/
+.row.body-game {
+    background-color: #b26e6b;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.direita {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn-ligacao {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.item {
+    margin: 3%;
+    border: 2px solid #fff;
+    width: 50%;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px #3333335e;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item::before {
+    content: "";
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding-inline: 3%;
+}
+
+.item1::before {
+    content: "1"
+}
+
+.item2::before {
+    content: "2"
+}
+
+.item3::before {
+    content: "3"
+}
+
+.item4::before {
+    content: "4"
+}
+
+.item5::before {
+    content: "5"
+}
+
+.txtacao {
+    padding-inline: 2%;
+}
+
+.resp {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 4%;
+    margin: 4%;
+    font-size: 20px;
+    border: none;
+    width: 60%;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px #3333335e;
+    text-align: left;
+}
+
+.resp:hover {
+    transform: scale(1.1);
+    background-color: white !important;
+}
+
+.acertou {
+    background-color: #008086 !important;
+    color: white !important;
+}
+
+/***************************************************************/
+/************************* conteúdo modal ***********************/
+/***************************************************************/
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.p-modal {
+    font-size: 17px;
+}
+
+.cor-errou {
+    background-color: #9a1d1d;
+    color: white;
+}
+
+.fecha-erro {
+    background-color: white;
+    color: #9a1d1d;
+    border: none;
+}
+
+.fecha-erro:hover {
+    background-color: #011d31;
+    color: #fff;
+}
+
+.cor-acerto {
+    background-color: #1e682b;
+    color: white;
+}
+
+.fecha-acerto {
+    background-color: white;
+    color: #002e08;
+    border: none;
+}
+
+.fecha-acerto:hover {
+    background-color: #011d31;
+    color: #fff;
+}
+
+.cor-final {
+    background-color: #214b69;
+    color: white;
+}
+
+.fecha-final {
+    background-color: white;
+    color: #07304d;
+    border: none;
+}
+
+.fecha-final:hover {
+    background-color: #011d31;
+    color: #fff;
+}
+
+/***************************************************************/
+/***************************** resize **************************/
+/***************************************************************/
+
+.conteudo {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: calc(50% - 1920px / 2);
+    top: 0px; 
+    /* calc(50% - 1080px / 2); */
+    margin: auto;
+}
+
+/***************************************************************/
+/*********************** linhas de ligação *********************/
+/***************************************************************/
+
+.linha {
+    height: 6px;
+    background-color: #333;
+    margin-bottom: 10px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+#linha1 {
+    width: 749px;
+    top: 238px;
+    left: 426px;
+    transform: rotate(25deg);
+}
+
+#linha2 {
+    width: 680px;
+    top: 245px;
+    left: 459px;
+}
+
+#linha3 {
+    width: 748.5px;
+    top: 569px;
+    left: 425px;
+    transform: rotate(24deg);
+}
+
+#linha4 {
+    width: 678px;
+    top: 566px;
+    left: 461px;
+    transform: rotate(-1deg);
+}
+
+#linha5 {
+    width: 935px;
+    top: 400px;
+    left: 331px;
+    transform: rotate(-43deg);
+}
+
+/***************************************************************/
+/********************** Itens selecionados *********************/
+/***************************************************************/
+
+.selecionado {
+    border: 3px solid #ff9200;
+    box-shadow: 0px 4px 0px 0px #ff9200 !important;
+}
+
+.acertou {
+    border-color: #008086;
+}
+
+/***************************************************************/
+/****************** Correções responsividade********************/
+/***************************************************************/
+
+.crop {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.crop::before{
+    content: "";
+    width: 100%;
+    height: auto;
+    padding-top: 47.4%;
+    position: relative;
+    display: block;
+
+}
+.crop.mobile {
+    height: 513px;
+    overflow-x: scroll;
+  }
+.crop.mobile::before{
+    display: none;
+}
+
+.crop.mobile > .game-ligue-colunas.no-print.conteudo{
+    left: calc((1920px - 980px) / -2);
+}
+
+/***************************************************************/
+/************************* media queries ***********************/
+/***************************************************************/
+/* 
+@media screen and (max-width: 768px) {
+
+    .p-descricao {
+        font-size: 17px;
+        margin-left: 80px;
+    }
+
+    .row.body-game {
+        padding: 0px;
+        margin: 2%;
+    }
+
+    .btn-ligacao {
+        gap: 5px;
+    }
+
+    .item,
+    .resp {
+        width: 100%;
+    }
+
+    .logo-ligacao-descricao {
+        padding: 1px 5px 5px 30px;
+        margin: 1%;
+        border-radius: 10px;
+    }
+
+    .item::before {
+        font-size: 17px;
+        padding-inline: 0px;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .logo-ligacao-descricao-img img {
+        width: 109px;
+        position: absolute;
+        top: 61px;
+        left: 10px;
+    }
+} */

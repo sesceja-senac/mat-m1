@@ -1,6 +1,8 @@
-$('.backdrop').hide()
+// $('.backdrop').hide()
 //localStorage.clear();
-if(localStorage.getItem('video-intro')!=='true'){    
+$(document).ready(function() {
+
+if(localStorage.getItem('a-video-intro')!=='true'){    
     $('.backdrop').fadeIn()
 }
 $('.btn-video').click(function(){
@@ -9,5 +11,8 @@ $('.btn-video').click(function(){
 $('.fechar').click(function(){
     $('.backdrop').fadeOut()
     $(".backdrop iframe").attr("src", $(".backdrop iframe").attr("src"));
-    localStorage.setItem('video-intro', 'true')
+    localStorage.setItem('matm1e1-video-intro', 'true')
 })
+
+});
+  
