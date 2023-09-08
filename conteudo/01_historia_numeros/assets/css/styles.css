@@ -10,6 +10,10 @@ figcaption {
   border-radius: 10px;
   max-width: 100%;
 }
+#carousel2 .carousel-caption{
+  background-color: #00838d;
+  padding: 8px
+}
 
 .sesc th {
   text-align: center;
