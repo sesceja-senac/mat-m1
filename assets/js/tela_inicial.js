@@ -2,9 +2,9 @@
 //localStorage.clear();
 $(document).ready(function() {
 
-if(localStorage.getItem('a-video-intro')!=='true'){    
+// if(localStorage.getItem('a-video-intro')!=='true'){    
     $('.backdrop').fadeIn()
-}
+// }
 $('.btn-video').click(function(){
     $('.backdrop').fadeIn()
 })
