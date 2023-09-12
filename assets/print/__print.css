@@ -9,7 +9,15 @@
 */
 /* ESTRUTURA PARA ELEMENTOS RELACIONADOS AOS BOTÕES E AJUDA DA IMPRESSÃO */
 #marcadaguaLogo { display: none !important; }
+#carousel3  {page-break-before: always;
+}
+#carousel3 .carousel-inner .carousel-item {
+  float: left !important;
+  width: 40% !important;
+  font-size: 12px !important;
+  line-height: 14px!important;
 
+}
 .grupo-imprimir {
     display: block;
     text-align: right;
