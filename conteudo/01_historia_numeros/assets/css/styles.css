@@ -18,6 +18,18 @@ figcaption {
 .sesc th {
   text-align: center;
 }
+.linkODA{
+  width: 319px;
+  height: 368px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url('../img/bt_oda_origem.png') no-repeat center bottom;
+  transition: all .4s;
+}
+.linkODA:hover{
+  background: url('../img/bt_oda_origem_hv.png') no-repeat center bottom;
+}
 
 video {
   height: 360px;
@@ -334,12 +346,29 @@ iframe {
   left: 0;
 }
 
-
+.fundo-texto{
+  background: #fff;
+  color:#004f53 !important;
+  padding: 5px;
+}
+.bt-conjuntos{
+  background: url('../imgAjuste/versionamento/bt_oda_conjuntos.png') no-repeat;
+  background-size: contain;
+  width: 284px;
+  height: 272px;
+  display: block;
+  margin: 20px auto;
+  transition: all .4s;
+}
+.bt-conjuntos:hover{
+  background: url('../imgAjuste/versionamento/bt_oda_conjuntos_hv.png') no-repeat center;
+  background-size: contain;
+}
 /*fim do menu*/
 
 .caixa.icone {
   padding: 40px;
-  padding-left: 60px;
+  padding-left: 70px;
   position: relative;
   margin-left: 20px;
   margin-top: 60px;
@@ -365,10 +394,26 @@ iframe {
   padding-left: 68px;
 }
 .figuraReta{background: #ffff;}
-
+header.titulo-conteudo {
+  position: absolute;
+  width: 100%;
+  padding-top: 15px;
+  z-index: 99;
+}
+footer {
+  position: absolute;
+  margin-top: -90px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.container.referencias{padding: 20px;}
+.pagina{padding: 100px 0;}
 .blocoY{
-  background: url('../../../../assets/img/vetor-bg2.png') center no-repeat;
+  background: url('../imgAjuste/versionamento/bg_ref.png') no-repeat;
   background-attachment: fixed;
+  padding: 100px 0;
 }
 
 .flex-container {
