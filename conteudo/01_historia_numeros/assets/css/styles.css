@@ -38,7 +38,11 @@ video {
   display: block;
   margin: 1.5em auto;
 }
-
+.fracao{
+  width: 25px;
+  filter: invert(100%);
+}
+.fracao.escura{filter: none;}
 .icone-titulo {
   display: inline;
   float: left;
@@ -47,20 +51,27 @@ video {
   border-radius: 100px;
   margin-right: 15px;
   margin-top: -10px;
+  margin-bottom: 20px;
+}
+.bloco.estilo2{
+  background: #00838d;
+}
+.icone::before {
+  background-color: transparent;
 }
 
-.estilo2 .icone::before {
+
+.estilo2 .caixa.icone{
   background-color: #ff9700;
-}
-.estilo3 .icone::before {
-  background-color: #004f53;
-}
-
-.estilo2 .caixa.icone,
-.estilo3 .caixa.icone {
+  background-repeat: no-repeat;
   color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  padding-left: 50px;
 }
 
+.caixa.icone p{color: #fff;}
 .enunciado ul {
   margin-top: 0;
 }
@@ -146,7 +157,21 @@ h2 {
 .pagination {
   justify-content: center;
 }
-
+.bloco.estilo2::after {
+  bottom: 0px;
+  background-image: url(../../../../assets/img/bottom.png);
+  background-size: 1988px 58px;
+  height: 57px;
+  background-position: bottom left;
+}
+.bloco.estilo2::before {
+  background-image: url(../../../../assets/img/topo.png);
+  background-size: 1988px 131px;
+  height: 131px;
+  top: 0px;
+  background-position: top left;
+}
+.bloco .container p{clear: both;}
 .ilustra {
   float: right;
   height: 200px;
@@ -373,7 +398,10 @@ iframe {
   margin-left: 20px;
   margin-top: 60px;
   margin-bottom: 30px;
-  color: #00838d;
+  background: #00838d;
+  border-radius: 30px;
+  border: none;
+  color: #FFF;
 }
 
 .caixa.icone.espaco{
@@ -402,7 +430,7 @@ header.titulo-conteudo {
 }
 footer {
   position: absolute;
-  margin-top: -90px;
+  margin-top: -50px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
