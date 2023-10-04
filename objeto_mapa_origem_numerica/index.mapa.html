@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mapa origem dos números</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style-mapa-numeros.css">
+</head>
+
+<body class="body-mapa">
+    <div class="conteudo">
+        <div class="body-mapa">
+            <div class="bg-mapa img-fluid position-relative w-100">
+                <img src="assets/img/bg-mapa.png" class="img-fluid" alt="mapa mundi">
+            </div>
+            <div class="titulo-atividade">
+                <img src="assets/img/title.png" class="img-fluid position-relative img-pergaminho" alt="Pergaminho">
+                <h1 class="position-absolute">Origem dos números</h1>
+            </div>
+            <div class="btn-totem">
+                <button class="imagem-sobreposta totem-babilonia" data-bs-toggle="modal"
+                    data-bs-target="#modalBabilonia">
+                    <img src="assets/img/totem-babilonia.png" class="img-fluid img-babilonia" alt="Totem babilônia">
+                </button>
+                <button class="imagem-sobreposta totem-egito" data-bs-toggle="modal" data-bs-target="#modalEgito">
+                    <img src="assets/img/totem-egito.png" class="img-fluid img-egito" alt="Totem Egito">
+                </button>
+                <button class="imagem-sobreposta totem-maia" data-bs-toggle="modal" data-bs-target="#modalMaia">
+                    <img src="assets/img/totem-maia.png" class="img-fluid img-maia" alt="Totem Maia">
+                </button>
+                <button class="imagem-sobreposta totem-romano" data-bs-toggle="modal" data-bs-target="#modalRomano">
+                    <img src="assets/img/totem-romano.png" class="img-fluid img-romano" alt="Totem Romano">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalBabilonia" tabindex="-1" aria-labelledby="modalBabiloniaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bordas-babilonia">
+                    <h1 class="modal-title h1-modal-mapa" id="modalBabiloniaLabel"><strong>Sistema de numeração
+                            babilônico</strong></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="p-modal-mapa p-3">
+                        O sistema de numeração babilônico é um sistema antigo de representação numérica desenvolvido
+                        pela civilização babilônica na Mesopotâmia, datado de 4.000 anos atrás. Essa civilização usava
+                        um sistema posicional baseado em 60, também conhecido como sistema sexagesimal. <br> <br> Esse
+                        sistema
+                        apresenta apenas dois símbolos, que se repetem conforme vão sendo adicionados, gerando um novo
+                        número.
+                    </p>
+                    <img src="assets/img/modal-babilonia.png" class="img-fluid p-3 w-75" alt="Números babilônico">
+                </div>
+                <div class="modal-footer bordas-babilonia">
+                    <button type="button" class="btn btn-secondary fechar-mapa" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEgito" tabindex="-1" aria-labelledby="modalEgitoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bordas-egito">
+                    <h1 class="modal-title h1-modal-mapa" id="modalEgitoLabel"><strong>Sistema de numeração
+                            egípcio</strong></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="p-modal-mapa p-3">
+                        O sistema de numeração egípcio é um sistema antigo de representação numérica, utilizado pela
+                        civilização egípcia e datado de cerca de 5.000 anos atrás. Esse sistema é considerado um sistema
+                        aditivo, pois os números são formados pela adição de símbolos com valores específicos.
+                    </p>
+                    <img src="assets/img/modal-egito.png" class="img-fluid p-3" alt="Números egípcio">
+                </div>
+                <div class="modal-footer bordas-egito">
+                    <button type="button" class="btn btn-secondary fechar-mapa" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMaia" tabindex="-1" aria-labelledby="modalMaiaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bordas-maia">
+                    <h1 class="modal-title h1-modal-mapa" id="modalMaiaLabel"><strong>Sistema de numeração maia</strong>
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="p-modal-mapa p-3">
+                        É um sistema matemático datado de 1.500 anos atrás, desenvolvido pela antiga civilização maia,
+                        que habitou principalmente a região da Mesoamérica (atualmente partes de México, Guatemala,
+                        Belize, Honduras e El Salvador).​
+                        Esse sistema apresenta símbolos de pontos, traços e conchas, com representação posicional, ou
+                        seja, a representação do valor é determinada pela posição dos símbolos.
+                    </p>
+                    <img src="assets/img/modal-maia.png" class="img-fluid p-3 w-75" alt="Números maia">
+                </div>
+                <div class="modal-footer bordas-maia">
+                    <button type="button" class="btn btn-secondary fechar-mapa" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRomano" tabindex="-1" aria-labelledby="modalRomanoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bordas-romano">
+                    <h1 class="modal-title h1-modal-mapa" id="modalRomanoLabel"><strong>Sistema de numeração
+                            romano</strong></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-modal-mapa p-3">
+                        É um sistema originário da Roma Antiga, desenvolvido há mais de 2.000 anos, desenvolvido como
+                        uma forma de identificação matemática simples. Esse sistema é composto de apenas sete símbolos,
+                        que correspondem a letras maiúsculas do nosso alfabeto. Atualmente é muito utilizado para
+                        identificar séculos, capítulos de livros, horário no mostrador de relógios etc. ​
+                    </p>
+                    <img src="assets/img/modal-romano.png" class="img-fluid p-3" alt="Números romanos">
+                </div>
+                <div class="modal-footer bordas-romano">
+                    <button type="button" class="btn btn-secondary fechar-mapa" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- força o usuário a virar a tela do celular -->
+
+    <div class="modo-smart">
+        <div class="text-center">
+            <p class="p-paisagem text-center">
+                <img src="assets/img/vire.gif" class="img-fluid img-paisagem d-inline-block"
+                    alt="gif: celular vira para o modo paisagem"><br>
+                <strong>Por favor, gire o aparelho para o modo paisagem.</strong>
+            </p>
+        </div>
+    </div>
+
+    <!-- Versao atual do handtalk -->
+
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+    <script>
+        window.addEventListener("load", AOS.refresh);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="assets/js/script-mapa-numeros.js"></script>
+</body>
+
+</html>
