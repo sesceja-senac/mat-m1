@@ -1,0 +1,168 @@
+/*********************************************************************/
+/***************************** Estilo header *************************/
+/*********************************************************************/
+
+.calculadora-equacoes {
+    padding: 1% !important;
+    border-radius: 20px !important;
+    background-color: #02717977 !important;
+}
+
+.introCalculadora {
+    padding: 2% !important;
+    border-radius: 15px !important;
+    background-color: white !important;
+    color: #00838d !important;
+}
+
+.bordinha {
+    border-radius: 10px !important;
+    border: 1px solid white !important;
+}
+
+.animacao {
+    animation: go-back 1s infinite alternate;
+    box-shadow: 5px 5px 10px rgba(0, 5, 10, 0.5);
+}
+
+@keyframes go-back {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.h1-calculadora {
+    font-size: 35px;
+}
+
+.p-intro {
+    text-transform: uppercase !important;
+    color: #00838d !important;
+}
+
+.p-calculadora {
+    color: #00838d !important;
+}
+
+
+/*********************************************************************/
+/***************************** Estilo modais *************************/
+/*********************************************************************/
+
+.borda-header {
+    background-color: #ff9200 !important;
+    text-transform: uppercase !important;
+}
+
+.borda-footer {
+    background-color: #ff9200 !important;
+}
+
+.modal-header-calculadora {
+    padding: 15px 50px 15px !important;
+}
+
+.modal-title {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.modal-body-calculadora {
+    font-size: 17px !important;
+    color: #333 !important;
+}
+
+.text-calculadora {
+    color: #333 !important;
+}
+
+.cor-errou {
+    background-color: #9a1d1d !important;
+    color: white !important;
+}
+
+.fecha-erro {
+    background-color: white !important;
+    color: #9a1d1d !important;
+    border: none !important;
+}
+
+.fecha-erro:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.cor-acerto {
+    background-color: #1e682b !important;
+    color: white !important;
+}
+
+.fecha-acerto {
+    background-color: white !important;
+    color: #002e08 !important;
+    border: none !important;
+}
+
+.fecha-acerto:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+/*********************************************************************/
+/************************** Estilo calculadora ***********************/
+/*********************************************************************/
+
+.calculator {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.calculator .form-control {
+    height: 10%;
+}
+
+.calculator .form-group {
+    margin-bottom: 0;
+}
+
+.calculator input[type=text] {
+    font-size: 17px;
+    color: #333;
+}
+
+.calculator .btn {
+    font-size: 17px;
+    color: #333;
+    width: 90%;
+}
+
+.calculator .btn-op {
+    background-color: #00838d;
+    color: white;
+}
+
+.calculator .btn:hover {
+    background-color: #ff9200;
+    color: black;
+}
+
+.table> :not(caption)>*>* {
+    padding: 1%;
+    border-bottom-width: 1px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    font-weight: bold;
+    opacity: 1;
+    border-color: #ff9200;
+}
+
+.table> :not(:first-child) {
+    border-top: 2px solid #00838d;
+}
