@@ -25,10 +25,10 @@ function escalaProporcao(largura, altura) {
 
 function resizeBodyConteudo() {
     var proporcao1920 = escalaProporcao(1920, 1080)[0];
-    if(proporcao1920 < Number(0.56)){
+    if (proporcao1920 < Number(0.56)) {
         proporcao1920 = "0.55";
         $(".crop").addClass("mobile")
-    }else{
+    } else {
         $(".crop").removeClass("mobile")
     }
     $(".conteudo").css({
@@ -159,30 +159,30 @@ $(document).ready(function () {
     }
 
 });
-        
+
 $(document).ready(function () {
-        
-         $('.btn.item').click(function () {
-            botaoClicado = $(this).attr("data-resp");
-            verificarEstadoBotoes();
-        });
 
-        $('.btn.resp').click(function () {
-            botaoRespClicado = $(this).attr("data-resp");
-            verificarEstadoBotoes();
-        });
+    $('.btn.item').click(function () {
+        botaoClicado = $(this).attr("data-resp");
+        verificarEstadoBotoes();
+    });
 
-        
-        function verificarEstadoBotoes() {
-            console.log(botaoClicado + "," + botaoRespClicado)
-            if (botaoClicado !== false && botaoRespClicado !== false) {
-                if(botaoClicado === botaoRespClicado){
-                    $('#linha' + botaoClicado).removeClass('d-none');
-                }
-                botaoClicado = false;
-                botaoRespClicado = false;
+    $('.btn.resp').click(function () {
+        botaoRespClicado = $(this).attr("data-resp");
+        verificarEstadoBotoes();
+    });
+
+
+    function verificarEstadoBotoes() {
+        console.log(botaoClicado + "," + botaoRespClicado)
+        if (botaoClicado !== false && botaoRespClicado !== false) {
+            if (botaoClicado === botaoRespClicado) {
+                $('#linha' + botaoClicado).removeClass('d-none');
             }
-            
+            botaoClicado = false;
+            botaoRespClicado = false;
         }
+
+    }
 
 });

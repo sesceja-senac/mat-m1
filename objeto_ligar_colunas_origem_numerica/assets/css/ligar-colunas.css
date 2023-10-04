@@ -20,12 +20,6 @@
     }
 }
 
-/* Remover */
-body {
-    background-color: #f2f2f2;
-}
-/* Remover */
-
 
 /***************************************************************/
 /************************ conteúdo header **********************/
@@ -38,7 +32,6 @@ body {
     font-size: 17px;
     border-radius: 10px;
     display: block;
-    /* border: 1px solid #b26e6b; */
     border-radius: 10px;
 }
 
@@ -251,8 +244,7 @@ body {
     height: 1080px;
     position: absolute;
     left: calc(50% - 1920px / 2);
-    top: 0px; 
-    /* calc(50% - 1080px / 2); */
+    top: 0px;
     margin: auto;
 }
 
@@ -326,24 +318,26 @@ body {
     height: auto;
     position: relative;
 }
-.crop::before{
+
+.crop::before {
     content: "";
     width: 100%;
     height: auto;
     padding-top: 47.4%;
     position: relative;
     display: block;
-
 }
+
 .crop.mobile {
     height: 513px;
     overflow-x: scroll;
-  }
-.crop.mobile::before{
+}
+
+.crop.mobile::before {
     display: none;
 }
 
-.crop.mobile > .game-ligue-colunas.no-print.conteudo{
+.crop.mobile>.game-ligue-colunas.no-print.conteudo {
     left: calc((1920px - 980px) / -2);
 }
 
