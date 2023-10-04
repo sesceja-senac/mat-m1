@@ -1,0 +1,134 @@
+body, html {
+    overflow: hidden;
+    background-color: #333;
+}
+.wrapper {
+    width: 1920px;
+    height: 1080px;
+    /* position: fixed; */
+    left: calc(50% - 1920px / 2);
+    top: calc(50% - 1080px / 2);
+    position: fixed;
+    margin: auto;
+    overflow: hidden;
+}
+.left {
+    padding: 10px 25px;
+    border: none;
+    background-color: #00806a;
+    color: white;
+}
+.inicio {
+    height: 100%;
+    position: relative;
+}
+.conteudo {
+    width: 100%;
+    display: none;
+    height: 100%;
+    position: relative;
+}
+button.modal-btn {
+    background-color: rgba(0, 128, 106, .6);
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+    display: none;
+}
+.modal-btn-1 {
+    top: 350px;
+    left: 485px;
+}
+.modal-btn-2 {
+    top: 410px;
+    left: 790px;
+}
+.modal-btn-3 {
+    top: 380px;
+    left: 1180px;
+}
+
+.conteudo p {
+    margin-bottom: 0;
+}
+.texto-1 {
+    background-color: white;
+    width: 625px;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 3px 3px 3px #333;
+    transition-duration: .5s;
+}
+.mensagem-inicial {
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    background-color: #fff;
+    width: 525px;
+    padding: 15px;
+    font-size: 22px;
+    box-shadow: 3px 3px 3px #333;
+}
+.bg {
+    position: absolute;
+    transition-duration: 2.5s;
+    transition-property: left;
+    left: 0px;
+    bottom: 0;
+    height: 100%;
+}
+.bg.active {
+    animation: init 2.5s forwards;
+}
+.bg.return {
+    animation: return 2.5s forwards;
+}
+.btn-voltar {
+    padding: 10px 25px;
+    border: none;
+    background-color: #00806a;
+    color: white;
+    font-size: 22px;
+    margin: 15px auto;
+}
+.backdrop {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(55, 55, 55, .8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.aviso-mobile {
+    background-color: white;
+    width: 100%;
+    max-width: 425px;
+    padding: 15px;
+    font-size: 22px;
+    margin: 10px;
+}
+@media (max-width:600px) {
+    html {
+        overflow: hidden;
+    }
+    .backdrop {
+        display: flex;
+    }
+}
+@keyframes init {
+    100% {left: -1700px;}
+}
+@keyframes return {
+    0% {left: -1700px;}
+    100% {left: 0px;}
+}

@@ -725,20 +725,24 @@ footer {
   }
 }
 
+.bg-tour-origem {
+  background: url('../img/bg-tour-origem.png') no-repeat center !important;
+}
+
 .bg-mapa-origem {
   background: url('../img/bg-mapa-origem.png') no-repeat center !important;
 }
 
 .btn-mapa {
   width: 80% !important;
-  height: 150px !important;
+  height: 190px !important;
   border: 2px solid white !important;
   background-color: #00838D !important;
   margin: 8%;
   color: white;
   font-weight: bold;
   font-size: 30px;
-  opacity: 95%;
+  opacity: 98%;
   justify-content: center !important;
   align-items: center;
   text-align: center;
