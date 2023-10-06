@@ -733,9 +733,13 @@ footer {
   background: url('../img/bg-mapa-origem.png') no-repeat center !important;
 }
 
-.btn-mapa {
+.bg-reta-numerica {
+  background: url('../img/bg-reta-numerica.png') no-repeat center !important;
+}
+
+.btn-objeto {
   width: 80% !important;
-  height: 190px !important;
+  height: 137px !important;
   border: 2px solid white !important;
   background-color: #00838D !important;
   margin: 8%;
@@ -748,13 +752,12 @@ footer {
   text-align: center;
 }
 
-#explorar-mapa {
-
+.text-sem-estilo {
   text-decoration: none;
   color: inherit;
 }
 
-.btn-mapa:hover {
+.btn-objeto:hover {
   background-color: #ff9700 !important;
 }
 

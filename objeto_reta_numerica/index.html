@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+    <script>
+        function detectar_mobile() {
+            return navigator.userAgent.match(/Android/i) ||
+                navigator.userAgent.match(/webOS/i) ||
+                navigator.userAgent.match(/iPhone/i) ||
+                navigator.userAgent.match(/iPad/i) ||
+                navigator.userAgent.match(/iPod/i) ||
+                navigator.userAgent.match(/BlackBerry/i) ||
+                navigator.userAgent.match(/Windows Phone/i);
+        }
+
+        function redirecionar() {
+
+            if (detectar_mobile()) {
+                location.href = 'objeto_reta_numerica_mobile/index.html';
+            } else {
+                location.href = 'objeto_reta_numerica_pc/index.html';
+            }
+        }
+
+        window.onload = function () {
+            redirecionar();
+        };
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
