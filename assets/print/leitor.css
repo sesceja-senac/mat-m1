@@ -14,7 +14,7 @@
 
 /* VALORES DEFAULT DE TUDO*/
 
-
+.fracao{width: 25px !important;}
 .pagina a:link	{
   color: (internal value);
   text-decoration: underline;

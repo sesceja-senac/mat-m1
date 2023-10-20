@@ -166,7 +166,7 @@ table.sesc tr{
         text-align: center;
         }
 
-
+        .fracao{width: 25px !important;}
       #marcadaguaLogo {
         display: block !important;
         position: fixed;

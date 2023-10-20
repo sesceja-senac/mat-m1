@@ -29,17 +29,16 @@ figcaption {
 }
 
 .linkODA {
-  width: 319px;
-  height: 368px;
+  width: 350px;
+  height: 350px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  background: url('../img/bt_oda_origem.png') no-repeat center bottom;
-  transition: all .4s;
+  margin: 20px auto;
+  background: url('../img/bt_M1E1_origem.png') no-repeat center bottom;
+  transition: all .6s;
 }
 
 .linkODA:hover {
-  background: url('../img/bt_oda_origem_hv.png') no-repeat center bottom;
+  transform: scale(1.1);
 }
 
 video {
@@ -435,18 +434,17 @@ iframe {
 }
 
 .bt-conjuntos {
-  background: url('../imgAjuste/versionamento/bt_oda_conjuntos.png') no-repeat;
+  background: url('../img/bt_M1E1_conjnumerico.png') no-repeat;
   background-size: contain;
-  width: 284px;
-  height: 272px;
+  max-width: 350px;
+  height: 350px;
   display: block;
-  margin: 20px auto;
-  transition: all .4s;
+  margin: auto;
+  transition: all .6s;
 }
 
 .bt-conjuntos:hover {
-  background: url('../imgAjuste/versionamento/bt_oda_conjuntos_hv.png') no-repeat center;
-  background-size: contain;
+  transform: scale(1.1);
 }
 
 /*fim do menu*/
@@ -492,10 +490,14 @@ header.titulo-conteudo {
   padding-top: 15px;
   z-index: 99;
 }
-
+.pagina > div:last-child{
+  padding-bottom: 70px;
+}
+.pagina > .bloco:last-child.estilo3::after,
+.pagina > .bloco:last-child.estilo2::after{display: none;}
 footer {
   position: absolute;
-  margin-top: -50px;
+  margin-top: -80px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -507,7 +509,7 @@ footer {
 }
 
 .pagina {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .blocoY {
@@ -682,6 +684,7 @@ footer {
 }
 
 @media screen and (max-width: 770px) {
+  header.titulo-conteudo{padding-top: unset;}
   .icone.pergunta::before {
     left: -55px;
   }
@@ -738,27 +741,25 @@ footer {
 }
 
 .btn-objeto {
-  width: 80% !important;
-  height: 137px !important;
-  border: 2px solid white !important;
-  background-color: #00838D !important;
-  margin: 8%;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  opacity: 98%;
-  justify-content: center !important;
-  align-items: center;
-  text-align: center;
+  background: url('../img/bt_M1E1_tourvirtual.png') no-repeat;
+  background-size: contain;
+  max-width: 350px;
+  height: 350px;
+  transition: all .6s;
+  margin: 20px auto;
+  cursor: pointer;
 }
-
+.btn-objeto.mapa {background: url('../img/bt_M1E1_mapa.png') no-repeat; background-size: contain;}
+.btn-objeto.reta {background: url('../img/bt_M1E1_reta.png') no-repeat; background-size: contain;}
+.btn-objeto:hover {transform: scale(1.1);}
+.btn-objeto a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .text-sem-estilo {
   text-decoration: none;
   color: inherit;
-}
-
-.btn-objeto:hover {
-  background-color: #ff9700 !important;
 }
 
 .animacao {
