@@ -727,8 +727,8 @@ table.sesc th {
 .destaque.grande{max-width: unset;}
 
 footer li.active a {
-  color: #fff;
-  background-color: #00838D;
+  /* color: #fff; */
+  background-color: #fff;
 }
 .pagination .active {
   transform: translateY(-8px);
