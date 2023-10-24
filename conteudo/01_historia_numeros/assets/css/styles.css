@@ -1,3 +1,17 @@
+body {
+  background-repeat: repeat !important;
+  background-position: center !important;
+}
+
+header .container{
+  border-radius: 25px 25px 0px 0px;
+}
+.container {
+  padding: 4px 40px;
+  border-radius: 0px 0px 25px 25px;
+  position: relative;
+}
+
 figcaption {
   text-align: center;
 }
@@ -65,18 +79,84 @@ video {
   background-color: white;
   border-radius: 100px;
   margin-right: 15px;
-  margin-top: -10px;
+  margin-top: -5px;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 100 !important;
 }
 
-.bloco.estilo2 {
+div.estilo2 {
   background: #00838d;
+  color: #fff;
+  margin: 0 -40px;
+  padding: 10px 40px;
+}
+.estilo2-divisoria_top{
+  background: url('../img/topo_verde.png') no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+  height: 140px;
+  margin: -2px -40px;
+}
+.estilo2-divisoria_bottom{
+  background: url('../img/bottom_verde.png') no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  height: 140px;
+  margin: -2px -40px;
+}
+
+div.estilo3{
+  background: #004f53;
+  color: #fff;
+  margin: 0 -40px;
+  padding: 10px 40px;
+}
+.estilo3-divisoria_top{
+  background: url('../img/topo_verdeescuro.png') no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+  height: 50px;
+  margin: -2px -40px;
+}
+.estilo3-divisoria_bottom{
+  background: url('../img/bottom_verdeescuro.png') no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  height: 110px;
+  margin: -2px -40px;
+}
+
+div.estilo4{
+  background: #ff9700;
+  color: #fff;
+  margin: 0 -40px;
+  padding: 10px 40px;
+}
+.estilo4-divisoria_top{
+  background: url('../img/topo_laranja.png') no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+  height: 70px;
+  margin: -2px -40px;
+}
+.estilo4-divisoria_bottom{
+  background: url('../img/bottom_laranja.png') no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  height: 110px;
+  margin: -2px -40px;
+}
+
+div.estilo2 h3, div.estilo2 h4,
+div.estilo3 h3, div.estilo3 h4,
+div.estilo4 h3, div.estilo4 h4{
+  color: #fff;
 }
 
 .icone::before {
   background-color: transparent;
 }
-
 
 .estilo2 .caixa.icone {
   background-color: #ff9700;
@@ -179,21 +259,22 @@ h2 {
   justify-content: center;
 }
 
-.bloco.estilo2::after {
+/*
+div.estilo2::after {
   bottom: 0px;
   background-image: url(../../../../assets/img/bottom.png);
   background-size: 1988px 58px;
   height: 57px;
   background-position: bottom left;
 }
-
-.bloco.estilo2::before {
+div.estilo2::before {
   background-image: url(../../../../assets/img/topo.png);
   background-size: 1988px 131px;
   height: 131px;
   top: 0px;
   background-position: top left;
 }
+*/
 
 .bloco .container p {
   clear: both;
@@ -541,6 +622,57 @@ footer {
 
 
 
+/*--------- BGs laterais ---------*/
+.elementos_bg{
+  position: absolute;
+  width: 200px;
+  z-index: 0;
+}
+
+/*---- PG 1 ----*/
+.pg1-elemento_1{
+  left: 0;
+  margin-left: -210px;
+  margin-top: -60px;
+}
+.pg1-elemento_2{
+  right: 0;
+  margin-right: -210px;
+  height: 198px;
+  top: 50%;
+  margin-top: -99px;
+}
+.pg1-elemento_3{
+  right: 0;
+  bottom: 0;
+  margin-right: -210px;
+  margin-bottom: 100px;
+}
+
+/*---- PG 2 ----*/
+.pg2-elemento_1{
+  left: 0;
+  margin-left: -210px;
+  margin-top: -60px;
+}
+.pg2-elemento_2{
+  right: 0;
+  margin-right: -210px;
+  height: 288px;
+  top: 50%;
+  margin-top: -144px;
+}
+.pg2-elemento_3{
+  right: 0;
+  bottom: 0;
+  margin-right: -210px;
+  margin-bottom: 100px;
+}
+
+
+/*--------- /BGs laterais ---------*/
+
+
 @media (max-width: 1080px) {
   video {
     max-width: 100%;
@@ -552,6 +684,10 @@ footer {
 
   figure .img-fluid {
     max-width: 600px;
+  }
+
+  .elementos_bg{
+    display: none;
   }
 }
 
