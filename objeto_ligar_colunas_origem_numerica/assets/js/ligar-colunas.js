@@ -120,35 +120,35 @@ $(document).ready(function () {
             id: "1",
             feedbacks: {
                 certo: "Parabéns, você acertou! Estes símbolos correspondem ao sistema egípcio.",
-                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema egípcio."
+                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema solicitado."
             }
         },
         {
             id: "2",
             feedbacks: {
                 certo: "Parabéns, você acertou! Estes símbolos correspondem ao sistema maia.",
-                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema maia."
+                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema solicitado."
             }
         },
         {
             id: "3",
             feedbacks: {
                 certo: "Parabéns, você acertou! Estes símbolos correspondem ao sistema babilônico.",
-                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema babilônico."
+                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema solicitado."
             }
         },
         {
             id: "4",
             feedbacks: {
                 certo: "Parabéns, você acertou! Estes símbolos correspondem ao sistema romano.",
-                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema romano."
+                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema solicitado."
             }
         },
         {
             id: "5",
             feedbacks: {
                 certo: "Parabéns, você acertou! Estes símbolos correspondem ao sistema hindu-arábico.",
-                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema hindu-arábico."
+                errado: "Resposta incorreta! Estes símbolos não correspondem ao sistema solicitado."
             }
         }
 
